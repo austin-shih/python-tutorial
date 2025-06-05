@@ -65,7 +65,7 @@ For more information, or a detail guide, [see here](https://docs.github.com/en/a
 
 ## 3. Cloning Repo
 
-Go to the GitHub repo you want to clone. Click `Code` and choose the `SSH` tab. Copy the `.git` URL. Open Git Bash to the directory you want to clone the repo in and type the following, replacing the URL with the one you just copied.
+Clone this GitHub repo. Click `Code` and choose the `SSH` tab. Copy the `.git` URL. Open Git Bash to the directory you want to clone the repo in and type the following, replacing the URL with the one you just copied.
 ```
 git clone git@github.com:username/repo-name.git
 ```
@@ -75,6 +75,8 @@ git clone git@github.com:username/repo-name.git
 GitHub allows you to put projects under version control. By 'cloning' a repository, we create two copies of the repository, a 'local' one on your laptop, and a 'remote' one on GitHub. The 'local' repo is your primary workspace where you can create, edit, and delete files. The 'remote' repo, in this case, is stored on GitHub where we can easily share our changes with collaborators. 
 
 Each repo will have a `main` branch (called `master` on older git versions, we don't do that anymore), which should contain the merged 'clean' code. This branch will eventually be the branch the houses the production code. To work on issues and effectively collaborate on coding projects, we need to create a 'branch' from the main repo. Branching allows us to incrementally update the code base and make commits to features. Once a new feature is finished, we can then merge to the `main` branch. This separation of feature branches is what allows us to develop our code base in parallel where progress can be made on mulitple independent features simultaneously. 
+
+Create a branch using your name as the branch name.
 
 To create a branch locally, open Git Bash and type the following.
 ```
@@ -89,6 +91,8 @@ git switch new_branch
 *note: you can also create a new branch by typeing `git switch -c branch_name`*
 
 ## 5. Add, Commit, Push, Pull, Pull Request
+
+We will practice the basic of GitHub work flow using the `basics.ipynb` Jupyter Notebook. Switch to the branch you just created and open the notebook in VS code. *You will need to install the Jupyter extension in VS*. Follow the instructions in the notebook and complete the notebook. This section given an explanation to the steps required to commit and push your changes to the repo.
 
 There are generally four additional steps you must take as part of your regular software collaborate workflow:
 
