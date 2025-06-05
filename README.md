@@ -44,6 +44,8 @@ In Git Bash, paste the below, replacing *YOU* with your system user name.
 ssh-add c:/Users/YOU/.ssh/id_ed25519
 ```
 
+*note: you may need to start ssh-agent in the background for this, if the above doesn't work, type `ssh-agent /bin/bash` to git bash first*
+
 ### 2.4 Add SSH public key to GitHub
 
 Go to your `.ssh` directory (it's likely hidden). Copy your SSH public key file to your clipboard. The file should have the `.pub` file extension. **DON'T COPY YOUR PRIVATE KEY**. On the upper right corner of your GitHub web page, click your profile picture and go to your GitHub account `Settings`. In the `Access` section of the sidebar, click `SSH and GPG keys`. Click `New SSH Key` or `Add SSH key`. Add a descriptive label in the 'Title' for this new key, for example, 'Work Computer'. Choose `Authentication Key`. Paste your public key to the `Key` field. Click `Add SSH keyu`.
