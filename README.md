@@ -1,6 +1,6 @@
 # python-tutorial
 
-This repository contains basic instructions on how to use GitHub and Python noteboooks to facilitate learning.
+This repository contains basic instructions on how to use GitHub and Python Jupyter notebooks to facilitate learning.
 
 ## GitHub Setup & Workflow
 The following guide will walk you through how to setup GitHub and GitHub basics:
